@@ -3,8 +3,9 @@ layout: about
 title: About
 ---
 
-# name
-- Yuji Watanabe
+# Profile
+- Name : Yuji Watanabe
+- adress : Miyazaki Japan
 
 # Professional Experience
 - Chemical Researcher, Asahi Kasei Corporation (2020 - 2024)
