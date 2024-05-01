@@ -1,11 +1,29 @@
 ---
 layout: post
-title: Markdown Guide
-subtitle: Resources to work with Markdown
-categories: markdown
-tags: [guide, markdown]
+title: Deciphering Big Data
+subtitle: Deciphering Big Data_e-portfolio
 ---
 
-## Resources
+## unit1
 
-This is a [good guide](https://www.markdownguide.org/basic-syntax/) to learn about the basic markdown syntax.
+## unit2
+
+## unit3
+
+## unit4
+
+## unit5
+
+## unit6
+
+## unit7
+
+## unit8
+
+## unit9
+
+## unit10
+
+## unit11
+
+## unit12
