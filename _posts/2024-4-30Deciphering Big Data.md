@@ -2,6 +2,8 @@
 layout: post
 title: Deciphering Big Data
 subtitle: Deciphering Big Data_e-portfolio
+categories: data science
+tags: [data science]
 ---
 
 ## unit1
