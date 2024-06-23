@@ -4,17 +4,8 @@ title: Deciphering Big Data
 subtitle: Deciphering Big Data_e-portfolio
 ---
 
-## unit1
+## unit1~6
 
-## unit2
-
-## unit3
-
-## unit4
-
-## unit5
-
-## unit6
 
 ## unit7
 
