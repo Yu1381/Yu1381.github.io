@@ -50,13 +50,13 @@ This time, I was blessed with excellent team members, so I was able to proceed s
 ## References
 Susanne, M. (2024) Data Normalization: Definition, Importance, and Advantages. Available from: https://coresignal.com/blog/data-normalization/ [Accessed 30 June 2024].
 
-IBM (2023). What Is Data Compliance? | IBM. Available at: https://www.ibm.com/topics/data-compliance [Accessed 30 June 2024].
+IBM (2023). What Is Data Compliance?  IBM. Available at: https://www.ibm.com/topics/data-compliance [Accessed 30 June 2024].
 
 GDPR. EU (2018). What is GDPR, the EU’s new data protection law?. Available at: https://gdpr.eu/what-is-gdpr/ [Accessed 30 June 2024].
 
 MySQL.(2024) Available at: https://www.mysql.com/jp/ 
 
-X .Use Cases, Tutorials, & Documentation | Twitter Developer Platform. Available at: https://developer.x.com/en [Accessed 6 July 2024].
+X .Use Cases, Tutorials, & Documentation  Twitter Developer Platform. Available at: https://developer.x.com/en [Accessed 6 July 2024].
 
 Mendo, T. (2024). A Comprehensive Intro Guide to API Security. Available at: https://probely.com/blog/a-comprehensive-intro-guide-to-api-security/ [Accessed 30 June 2024].
 
