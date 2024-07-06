@@ -9,7 +9,9 @@ tags: [data science]
 ## unit1~6
 The main outcome of Units 1-6 is teamwork, so I will write about that.
 First, I will write about team creation. Unfortunately, I did not know anyone among the members, so I thought about how to form a team. There was talk that if no one was decided at the end, the remaining people would form a team, but I thought that I wanted to form a team myself. Among them, I chose to post an e-portfolio in which I wrote my self-introduction on the self-introduction form. Since I had time to spare, I wanted to form a team with people who saw it and were interested in me. I was able to form a team with the team members I would be forming with, and I was able to start the assignment earlier than the other teams. There were also other people who contacted me, but unfortunately I had already decided on a team, so I had to decline, and I felt sorry.
+
 Next, we discussed how to proceed with the team assignment. This was because I thought it was important to confirm various understandings with each other first in order to proceed with the team assignment. Unfortunately, I live in Japan, which is very far from Europe, and due to the time difference, it seemed difficult to actively progress the assignment through video calls. Therefore, we both agreed to have a meeting based on chat and email.
+
 As for the teamwork content, since one of my team members had experience, I asked him to set up the target customer and each entity. Since I work as a researcher at a chemical company, I am not familiar with this field, so I was very grateful for his experience. My work was about database selection and data cleaning. While I was working on the assignment, I thought I had prepared enough reference materials. However, as I learned more about each item in Units 7 to 10, I realized that I only had a superficial understanding of the overview. This is also related to the reflection on the assignment in Unit 11.
 Although my final score was 58, I believe that I was able to complete a very meaningful team assignment, such as building a database in cooperation with my team members and understanding the overview of database construction.
 
@@ -47,35 +49,63 @@ This time, I was blessed with excellent team members, so I was able to proceed s
 
 ## References
 Susanne, M. (2024) Data Normalization: Definition, Importance, and Advantages. Available from: https://coresignal.com/blog/data-normalization/ [Accessed 30 June 2024].
+
 IBM (2023). What Is Data Compliance? | IBM. Available at: https://www.ibm.com/topics/data-compliance [Accessed 30 June 2024].
+
 GDPR. EU (2018). What is GDPR, the EU’s new data protection law?. Available at: https://gdpr.eu/what-is-gdpr/ [Accessed 30 June 2024].
+
 MySQL.(2024) Available at: https://www.mysql.com/jp/ 
+
 X .Use Cases, Tutorials, & Documentation | Twitter Developer Platform. Available at: https://developer.x.com/en [Accessed 6 July 2024].
+
 Mendo, T. (2024). A Comprehensive Intro Guide to API Security. Available at: https://probely.com/blog/a-comprehensive-intro-guide-to-api-security/ [Accessed 30 June 2024].
+
 Dmitry, N. (2024). MySQL vs Postgres in 2024. Available at: https://dbconvert.com/blog/mysql-vs-postgres-in-2024/ [Accessed 30 June 2024].
+
 Group, P. G. D. (2024). PostgreSQL. Available at: https://www.postgresql.org/
+
 Japanese Law (2003). Act on the Protection of Personal Information.  Available at: https://www.japaneselawtranslation.go.jp/en/laws/view/4241 [Accessed 30 June 2024].
 
 ## Appendix
 Unit1~6 code
+
 SELECT *
+
 FROM Table1
+
 INNER JOIN Table2
+
 ON Table1.PrimaryKey = Table2.ForeignKey;
 
+
 Unit10 code
+
 import tweepy
+
 import os
+
 api_key = os.getenv('TWITTER_API_KEY')
+
 api_secret_key = os.getenv('TWITTER_API_SECRET_KEY')
+
 access_token = os.getenv('TWITTER_ACCESS_TOKEN')
+
 access_token_secret = os.getenv('TWITTER_ACCESS_TOKEN_SECRET')
+
 auth = tweepy.OAuthHandler(api_key, api_secret_key)
+
 auth.set_access_token(access_token, access_token_secret)
+
 api = tweepy.API(auth)
+
 try:
+
     tweets = api.user_timeline(screen_name='twitter_username', count=10)
+    
     for tweet in tweets:
+    
         print(f"{tweet.user.name}: {tweet.text}")
+        
 except tweepy.TweepError as e:
+
     print(f"Error: {e}")
