@@ -10,6 +10,9 @@ tags: [data science]
 
 
 ## unit4
+
+
+## unit5
 Jaccard coefficient is a measure of similarity between two sets. It can be calculated as follows.
 
 A∩B: intersection of two sets.
@@ -35,9 +38,6 @@ The number of intersections {1} is 0.
 Whole parts 1, 0, and 1 appear throughout.
 The unique value is 2.
 Therefore, J(Jack,mary) is 0/3=0
-
-## unit5
-
 
 ## unit6
 
