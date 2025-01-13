@@ -10,7 +10,7 @@ tags: [data science]
 
 
 ## unit4
-
+Since this project was mainly carried out as a team, I will summarize it in the Unit 6 section. 
 
 ## unit5
 Jaccard coefficient is a measure of similarity between two sets. It can be calculated as follows.
