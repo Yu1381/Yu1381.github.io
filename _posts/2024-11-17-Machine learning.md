@@ -65,6 +65,7 @@ In terms of knowledge, I was able to solidify my foundation in machine learning,
 In addition to the knowledge, I learned the importance of efficiently working in group work and thinking about issues from the perspective of my own customers, such as readers of reports. My current job is research, so I do not directly interact with customers. However, at my company, I am told every day to work from the customer's perspective. Therefore, I am conducting research while thinking about virtual customers, and I think that this time was useful. In the future, I plan to resign and go on to a doctoral course, but I think I have once again realized the importance of learning from the customer's perspective in implementing research in society.
 
 References
+
 Cooban, A. (2024) AI will shrink workforces within five years, say company execs | CNN Business. CNN. Available from: https://www.cnn.com/2024/04/05/business/ai-job-losses/index.html [Accessed 14 January 2025].
 Schwab, Kl. (2016) The Fourth Industrial Revolution: what it means, how to respond. Available at: https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/ [Accessed 14 January 2025]
 West, D.M., 2018. The Future of Work: Robots, AI, and Automation. Brookings Institution Press. Available at: http://www.jstor.org/stable/10.7864/j.ctt1vjqp2g [Accessed 14 January 2025].
