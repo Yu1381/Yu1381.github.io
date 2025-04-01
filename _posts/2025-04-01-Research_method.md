@@ -42,16 +42,21 @@ In Unit 7, I learned the basic theory of hypothesis testing and t-tests using Ex
 ### Exercise 7.1, 7.3 7.4
 1 Data Overview
 Data Set G: Data of impurities when processed with Agent1 and 2.
+
 2 Test Procedure
 This time, we will use a one-sided test to check whether Agent1 can remove impurities more effectively.
+
 ・Null hypothesis (H₀): μ₁ ≥ μ₂ (Agent 1 has the same performance as Agent2 or less)
+
 ・Alternative hypothesis (H₁): μ₁ < μ₂ (Agent1 is significantly more effective)
+
 Check the homogeneity of variance using F-tests and perform t-tests
 3 Results and interpretation
 
  <img width="286" alt="image" src="https://github.com/user-attachments/assets/44acebaa-a354-4e4b-a1c5-65c09bdc04a8" />
  
 ・Results of F-test
+
 Since the p-value is 0.4886, which is greater than the significance level of 0.05, it can be determined that there is no significant difference in variance. Therefore, the variances of Agent 1 and Agent 2 are considered to be equal and are used in the t-test.
 
 Results of the t-test
@@ -59,17 +64,25 @@ Results of the t-test
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/77878ad7-5b62-4010-9861-751c65e83fd0" />
 
 〇 Exercise 7.1
+
 Even in the case of a one-sided test, the p-value is 0.1578, which is also larger than the significance level, so we cannot conclude that there is a significant difference.
+
 〇 Exercise 7.3
+
 In the case of a two-sided test, the p-value is 0.3156, which is larger than the significance level of 0.05, so we cannot reject the null hypothesis. In conclusion, there is no statistically significant difference.
 From the above, Agent2 is slightly larger numerically, but at the 5% level, it cannot be said that there is a significant difference. In other words, it can be judged that it is within the range of chance error.
+
 〇 Exercise 7.4
+
 What happens if you switch the two-sided test performed in 7.3 to a one-sided test? If you switch to a one-sided test that shows that Agent1 is more effective, the one-sided test should theoretically be about half. However, it still does not fall below the significance level. Therefore, it is not a significant difference. However, choosing a one-sided test after the fact like this is not statistically valid.
 
 ### Exercise 7.2, 7.5
 1 Data overview
+
 Test whether the average income of men exceeds that of women using the data from Data Set C
+
 2 Test procedure
+
 Use a one-sided test to examine whether men's income is higher than women's
 H₀: μₘ ≤ μᶠ (men's income is lower than women's)
 H₁: μₘ > μᶠ (men's income exceeds women's)
@@ -77,7 +90,9 @@ H₁: μₘ > μᶠ (men's income exceeds women's)
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/3f0a8764-9094-45e5-956e-c2ca8e7ac69c" />
 
 3 Results
+
 ・Results of F-test
+
 The p-value is 0.2182, which is greater than 0.05. Therefore, the income variances of men and women can be considered equal. Therefore, the t-test uses a method that assumes equal variances.
 Results of the t-test
 
@@ -90,6 +105,7 @@ The p-value of the one-tailed t-test is 0.00071, which is less than the signific
 <img width="145" alt="image" src="https://github.com/user-attachments/assets/322d6a3e-b380-4458-a9e1-9ed63567ffaa" />
 
 The dataset shows weight loss data when eating Diet A and Diet B. 
+
 Diet B resulted in a mean weight loss of 3.71 kg, with a standard deviation of 2.77 kg, suggesting a large degree of individual variability. Diet A, on the other hand, resulted in a weight loss of 5.341 kg, suggesting that Diet A resulted in a greater weight loss on average. The standard deviation of Diet A was 2.54 kg, which is slightly smaller, and we can see that the variability is also small.
 ### Exercise 6.2
 The median shows that exactly half of the participants in Diet B lost more than 3.745 kg. This is almost the same level as the mean, and we can see that the distribution is not significantly distorted. The quartiles are Q1=1.953 and Q3=5.404, indicating a large degree of variability. The interquartile range is 3.451 kg, which also indicates a large degree of individual variability. On the other hand, the median of Diet A was 5.642 kg, which is clearly higher than B, and the interquartile range was 3.285 kg, which is narrower than B. In other words, Diet B has a low median and a large variance, which indicates that the effect is low and there is a large individual difference.
