@@ -127,3 +127,4 @@ Confessore, N., 2018. Cambridge Analytica and Facebook: The Scandal and the Fall
 Kleinman, Z., 2018. Cambridge Analytica: The story so far. The Guardian [online] Available at: https://www.bbc.com/news/technology-43465968, [Accessed 18 February 2025].
 
 Troutman, M., 2024. NYU survey of MTA job violence was posted publicly on Facebook – and trolls may have taken over: “Mischievous respondents.” [online] Available at: https://nypost.com/2024/11/11/us-news/nyu-survey-of-mta-job-violence-was-posted-publicly-on-facebook-and-trolls-may-have-taken-over-mischevious-respondents/ [Accessed 18 February 2025].
+
