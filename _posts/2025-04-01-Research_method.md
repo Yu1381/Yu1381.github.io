@@ -63,16 +63,22 @@ Results of the t-test
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/77878ad7-5b62-4010-9861-751c65e83fd0" />
 
+
 〇 Exercise 7.1
+
 
 Even in the case of a one-sided test, the p-value is 0.1578, which is also larger than the significance level, so we cannot conclude that there is a significant difference.
 
+
 〇 Exercise 7.3
+
 
 In the case of a two-sided test, the p-value is 0.3156, which is larger than the significance level of 0.05, so we cannot reject the null hypothesis. In conclusion, there is no statistically significant difference.
 From the above, Agent2 is slightly larger numerically, but at the 5% level, it cannot be said that there is a significant difference. In other words, it can be judged that it is within the range of chance error.
 
+
 〇 Exercise 7.4
+
 
 What happens if you switch the two-sided test performed in 7.3 to a one-sided test? If you switch to a one-sided test that shows that Agent1 is more effective, the one-sided test should theoretically be about half. However, it still does not fall below the significance level. Therefore, it is not a significant difference. However, choosing a one-sided test after the fact like this is not statistically valid.
 
