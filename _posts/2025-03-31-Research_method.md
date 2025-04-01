@@ -10,21 +10,27 @@ tags: [data science]
 ## unit5
 ### Case Study 1: Cambridge Analytica (Confessorem, 2018, Kleinman, 2018)
 In 2018, Cambridge Analytica conducted a simple quiz on Facebook. However, it was designed to collect data not only from the user but also from their friends. As a result, even though only 270,000 people took the test, data from 50 million users across the United States was collected. The results were then used for psychological analytics for political purposes such as elections.
+
 -Ethical issues
 The users who answered the survey did not consent to the use of not only their own data but also that of their friends.
+
 -Social impact
 It was suggested that the illegally collected data may have actually been used in the election of Trump.
+
 -Legal impact
 This incident was widely reported, and the need for strengthening personal information protection laws such as GDPR and stricter data protection regulations for companies has come under scrutiny.
 
 ### Case Study 2: NYU survey of MTA job violence (Troutman, 2024)
 A survey of violence against employees of the New York City public transportation company, the MTA, conducted by researchers at New York University was published on Facebook, resulting in contamination of the database. NYU announced that 90% of general employees had experienced assault or harassment, but in reality, it was only about 11%.
+
 -Ethical issues
 The survey was poorly managed, and anyone was free to answer.
 As a result, it contained a lot of data that did not reflect the actual situation.
+
 -Social impact
 The publication of incorrect data caused anxiety among citizens.
 The fact that the results were published by the prestigious New York University in particular gave the results credibility, which is thought to be a factor.
+
 -Legal impact
 The research team requested a retraction.
 The National Institutes of Health, which funded the study, and the research oversight group at New York University were notified of the issue.
