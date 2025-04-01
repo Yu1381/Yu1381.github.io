@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research_method
-subtitle: Machine learning_e-portfolio
+subtitle: Research_method_e-portfolio
 categories: data science
 tags: [data science]
 ---
