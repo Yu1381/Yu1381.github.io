@@ -42,12 +42,16 @@ This time, we will use a one-sided test to check whether Agent1 can remove impur
 ・Alternative hypothesis (H₁): μ₁ < μ₂ (Agent1 is significantly more effective)
 Check the homogeneity of variance using F-tests and perform t-tests
 3 Results and interpretation
+
  <img width="286" alt="image" src="https://github.com/user-attachments/assets/44acebaa-a354-4e4b-a1c5-65c09bdc04a8" />
+ 
 ・Results of F-test
 Since the p-value is 0.4886, which is greater than the significance level of 0.05, it can be determined that there is no significant difference in variance. Therefore, the variances of Agent 1 and Agent 2 are considered to be equal and are used in the t-test.
 
 Results of the t-test
+
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/77878ad7-5b62-4010-9861-751c65e83fd0" />
+
 〇 Exercise 7.1
 Even in the case of a one-sided test, the p-value is 0.1578, which is also larger than the significance level, so we cannot conclude that there is a significant difference.
 〇 Exercise 7.3
@@ -63,16 +67,22 @@ Test whether the average income of men exceeds that of women using the data from
 Use a one-sided test to examine whether men's income is higher than women's
 H₀: μₘ ≤ μᶠ (men's income is lower than women's)
 H₁: μₘ > μᶠ (men's income exceeds women's)
+
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/3f0a8764-9094-45e5-956e-c2ca8e7ac69c" />
+
 3 Results
 ・Results of F-test
 The p-value is 0.2182, which is greater than 0.05. Therefore, the income variances of men and women can be considered equal. Therefore, the t-test uses a method that assumes equal variances.
 Results of the t-test
+
 <img width="256" alt="image" src="https://github.com/user-attachments/assets/2370fe8a-c4c6-4f54-991e-7c6340a34c25" />
+
 The p-value of the one-tailed t-test is 0.00071, which is less than the significance level of 0.05. The null hypothesis can be rejected. Therefore, it can be said that the average income of men is statistically significantly higher than that of women.
 ### e-portfolio unit7_Summary Measures worksheet
 ### Exercise 6.1
+
 <img width="145" alt="image" src="https://github.com/user-attachments/assets/322d6a3e-b380-4458-a9e1-9ed63567ffaa" />
+
 The dataset shows weight loss data when eating Diet A and Diet B. 
 Diet B resulted in a mean weight loss of 3.71 kg, with a standard deviation of 2.77 kg, suggesting a large degree of individual variability. Diet A, on the other hand, resulted in a weight loss of 5.341 kg, suggesting that Diet A resulted in a greater weight loss on average. The standard deviation of Diet A was 2.54 kg, which is slightly smaller, and we can see that the variability is also small.
 ### Exercise 6.2
@@ -80,18 +90,26 @@ The median shows that exactly half of the participants in Diet B lost more than 
 ### Exercise 6.3
 The dataset investigates the preferences for breakfast cereal brands in two areas. 
 Compared to Area 1, Area 2 has high support for both Brands A and B. This means that Area 2 has high recognition of famous brands and/or high purchasing power.
+
 <img width="145" alt="image" src="https://github.com/user-attachments/assets/17f1918f-5d4a-4942-922d-f113a3ff0feb" />
+
 ### Unit 9 - Charts Worksheet
 Exercise 9.1 / 9.4
+
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/e379912f-04a1-4677-98fa-434ed0a2e7bb" /><img width="197" alt="image" src="https://github.com/user-attachments/assets/462b02a6-332a-4c12-9659-3db1c98da86d" />
+
 Objective: To show brand preferences in Areas 1 and 2 using a bar graph.
 ### Exercise 9.2 / 9.5
 The graphs shown in Exercise 9.1 are arranged side by side to make it easier to understand visually. We can see that the purchasing power of brands A and B is lower in Area 1 than in Area 2.
+
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/093d1f00-0d43-4853-b2b7-b1a934662714" />
 
 ### Exercise 9.3 / 9.6
  The histogram allowed me to check the distribution of data (variance, skewness, etc.). I was able to actually visually confirm the differences identified in the e-portfolio unit7_Summary Measures worksheet.
-<img width="218" alt="image" src="https://github.com/user-attachments/assets/8b5c9db9-2220-4952-a66a-6b22b04afb3a" /><img width="226" alt="image" src="https://github.com/user-attachments/assets/e51101b3-bed3-4278-879c-d48554008de4" />
+ 
+<img width="218" alt="image" src="https://github.com/user-attachments/assets/8b5c9db9-2220-4952-a66a-6b22b04afb3a" />
+
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/e51101b3-bed3-4278-879c-d48554008de4" />
 
 
 
