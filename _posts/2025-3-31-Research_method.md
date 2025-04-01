@@ -7,59 +7,120 @@ tags: [data science]
 ---
 # Learning Artifacts and Contributions to Projects
 
-## unit1~3
-Here, I considered the impact of Industry 4.0 on the chemical industry. I then suggested the possibility that white-collar jobs could be taken over by AI (Cooban, 2024). In response, my colleagues suggested that new jobs could be created to replace the jobs lost, improving quality of life (Schwab Kl., 2016). They also suggested that technology could create time for growth and community (West, 2018). This multifaceted discussion helped me expand my knowledge.
-
-## unit4
-Since this project was mainly carried out as a team, I will summarize it in the Unit 6 section. 
-
 ## unit5
-Jaccard coefficient is a measure of similarity between two sets. It can be calculated as follows.
+### Case Study 1: Cambridge Analytica (Confessorem, 2018, Kleinman, 2018)
+In 2018, Cambridge Analytica conducted a simple quiz on Facebook. However, it was designed to collect data not only from the user but also from their friends. As a result, even though only 270,000 people took the test, data from 50 million users across the United States was collected. The results were then used for psychological analytics for political purposes such as elections.
+-Ethical issues
+The users who answered the survey did not consent to the use of not only their own data but also that of their friends.
+-Social impact
+It was suggested that the illegally collected data may have actually been used in the election of Trump.
+-Legal impact
+This incident was widely reported, and the need for strengthening personal information protection laws such as GDPR and stricter data protection regulations for companies has come under scrutiny.
 
-A∩B: intersection of two sets.
+### Case Study 2: NYU survey of MTA job violence (Troutman, 2024)
+A survey of violence against employees of the New York City public transportation company, the MTA, conducted by researchers at New York University was published on Facebook, resulting in contamination of the database. NYU announced that 90% of general employees had experienced assault or harassment, but in reality, it was only about 11%.
+-Ethical issues
+The survey was poorly managed, and anyone was free to answer.
+As a result, it contained a lot of data that did not reflect the actual situation.
+-Social impact
+The publication of incorrect data caused anxiety among citizens.
+The fact that the results were published by the prestigious New York University in particular gave the results credibility, which is thought to be a factor.
+-Legal impact
+The research team requested a retraction.
+The National Institutes of Health, which funded the study, and the research oversight group at New York University were notified of the issue.
 
-A∪B: union of two sets.
+## unit7~9
+e-portfolio unit7_Hypothesis Testing worksheet
 
-Checking the table, it can be calculated as follows.
+1 Introduction
+In Unit 7, I learned the basic theory of hypothesis testing and t-tests using Excel. In particular, we learned how to check the homogeneity of variance using F-tests, and how to use one-sided and two-sided tests, and t-tests with and without pairing. We will describe the results of Exercise 7.1 to 7.5.
 
-1, (Jack,Mary);
-The number of intersections {1} is 1.
-Whole parts 1, 0, and 1 appear throughout.
-The unique value is 3.
-Therefore, J(Jack,mary) is 1/3
+Exercise 7.1, 7.3 7.4
+1 Data Overview
+Data Set G: Data of impurities when processed with Agent1 and 2.
+2 Test Procedure
+This time, we will use a one-sided test to check whether Agent1 can remove impurities more effectively.
+・Null hypothesis (H₀): μ₁ ≥ μ₂ (Agent 1 has the same performance as Agent2 or less)
+・Alternative hypothesis (H₁): μ₁ < μ₂ (Agent1 is significantly more effective)
+Check the homogeneity of variance using F-tests and perform t-tests
+3 Results and interpretation
+ 
+・Results of F-test
+Since the p-value is 0.4886, which is greater than the significance level of 0.05, it can be determined that there is no significant difference in variance. Therefore, the variances of Agent 1 and Agent 2 are considered to be equal and are used in the t-test.
 
-2, (Jack,Jim);
-The number of intersections {1} is 0.
-Whole parts 1 and 0 appear throughout.
-The unique value is 2.
-Therefore, J(Jack,mary) is 0/2=0
+Results of the t-test
+〇 Exercise 7.1
+Even in the case of a one-sided test, the p-value is 0.1578, which is also larger than the significance level, so we cannot conclude that there is a significant difference.
+〇 Exercise 7.3
+In the case of a two-sided test, the p-value is 0.3156, which is larger than the significance level of 0.05, so we cannot reject the null hypothesis. In conclusion, there is no statistically significant difference.
+From the above, Agent2 is slightly larger numerically, but at the 5% level, it cannot be said that there is a significant difference. In other words, it can be judged that it is within the range of chance error.
+〇 Exercise 7.4
+What happens if you switch the two-sided test performed in 7.3 to a one-sided test? If you switch to a one-sided test that shows that Agent1 is more effective, the one-sided test should theoretically be about half. However, it still does not fall below the significance level. Therefore, it is not a significant difference. However, choosing a one-sided test after the fact like this is not statistically valid.
 
-3, (Jim,Mary);
-The number of intersections {1} is 0.
-Whole parts 1, 0, and 1 appear throughout.
-The unique value is 2.
-Therefore, J(Jack,mary) is 0/3=0
-
-## unit6
-In Unit 6, I used all my knowledge to tackle the team task. My role was to give opinions on the team policy, set the team name, and perform advanced data analysis. The assignment this time was to analyze various parameters of the Airhub in New York. However, for someone like me who is not familiar with New York, it is difficult to understand where the place is located even if the name of the place is mentioned. Therefore, by plotting the parameters on a visually appealing map, we were able to understand which areas are particularly expensive. This is an application of the content I implemented in my past assignments at University of Essex, and I think it is a great example of utilizing the knowledge I learned in the past.
-
-## unit8~10
-I mentioned the advantages and disadvantages of AI writing (ITRex, 2023, Hutson, 2021). The advantages are mainly improved efficiency and reduced costs, while the disadvantages are the accuracy of information and the danger of blindly accepting answers given by AI. My colleagues also gave me opinions from various perspectives, but the consensus among all of us was that even though it is AI, the final user is a human, so it is important that the human user has proper knowledge and morals. As a concrete example, I was introduced to a study that showed that experts find AI-generated content effective, confident, and efficient (Coman & Cardon, 2024). On the other hand, I was also presented with information suggesting problems such as the black box nature of AI, which makes the training dataset opaque and may violate copyright (Hughes, 2024). In recent years, in Japan, it has become a problem that illustrations posted on X are being learned by AI without permission, and I believe that the creators of generative AI should also have knowledge and morals.
-
-## unit11
-This was my first time implementing convolutional neural networks. Therefore, I had to start from the basics, but I was able to achieve a correct answer rate of nearly 90% with 20 layers using a CNN that I built myself. In addition, I was able to further improve the correct answer rate by using ResNet. I don't know how many situations I will use CNN in the future, but about 90% is enough for my usual work in chemistry research, but I would like to further study other models such as VGG and EfficientNet in the future. In addition, I think that by understanding the basic mathematics and learning the history of the development of CNN, I will be able to design more efficiently. For example, although it is difficult because I do not have an environment, I would like to confirm how overfitting occurs when the layers are increased to about 100 layers without using skip connection. I think that by doing so, I will be able to understand why ResNet was created.
-
-
-# Final Project Evaluation and Ingenuity
-## Unit6
-### Self-evaluation of group activities
-I believe that I was able to actively participate in group activities this time. When one of the team members first spoke to me, I responded quickly and contributed to the smooth progress of the group work. Considering that it was five days later that the other members responded, I believe that I was able to contribute to the group work quickly. In addition, since no one else had suggested using maps for analysis, I believe that I was able to add color to the final report. The people who will be looking at the analysis results in Unit 6 may not be data science specialists. To be honest, at that time, the results of statistical analysis and graphs may not be understood. I believe that my greatest contribution was using a tool that is familiar to the general public, such as maps.
-
-## Unit11
-### About the environment implementation
-At first, I decided to use Google Colaboratory to run PyTorch. Since I am a beginner with PyTorch, I wanted to experiment with various models through various trial and error, but the free version has a time limit, and once the time limit is reached, you cannot try for a long time after that. It may not have been a problem for an experienced person who can implement efficiently, but it was not a friendly environment for a beginner like me. I usually enjoy games, so I own a GeForce RTX 3060 Ti, which is now a low-class consumer model. Therefore, I wondered if I could use this to build my own environment. I used both Pytorch and Tensorflow to build the environment, referring to various online articles. As a result, Pytorch was very easy to adapt to my environment, and I was able to create a model successfully. By doing so, I was able to create a relatively accurate model by trial and error with various execution conditions. This time, the dataset was CIFAR-10, which is a relatively small dataset, so I was able to learn it without any problems even with such a GPU, but it became clear that I would need to consider building the environment if I encounter a larger dataset in the future.
-
-# What I learned throughout the unit
+Exercise 7.2, 7.5
+1 Data overview
+Test whether the average income of men exceeds that of women using the data from Data Set C
+2 Test procedure
+Use a one-sided test to examine whether men's income is higher than women's
+H₀: μₘ ≤ μᶠ (men's income is lower than women's)
+H₁: μₘ > μᶠ (men's income exceeds women's)
 
 
-References
+
+
+
+
+
+
+3 Results
+・Results of F-test
+The p-value is 0.2182, which is greater than 0.05. Therefore, the income variances of men and women can be considered equal. Therefore, the t-test uses a method that assumes equal variances.
+
+Results of the t-test
+
+
+
+
+
+
+
+
+
+
+
+The p-value of the one-tailed t-test is 0.00071, which is less than the significance level of 0.05. The null hypothesis can be rejected. Therefore, it can be said that the average income of men is statistically significantly higher than that of women.
+
+e-portfolio unit7_Summary Measures worksheet
+Exercise 6.1
+The dataset shows weight loss data when eating Diet A and Diet B. 
+Diet B resulted in a mean weight loss of 3.71 kg, with a standard deviation of 2.77 kg, suggesting a large degree of individual variability. Diet A, on the other hand, resulted in a weight loss of 5.341 kg, suggesting that Diet A resulted in a greater weight loss on average. The standard deviation of Diet A was 2.54 kg, which is slightly smaller, and we can see that the variability is also small.
+Exercise 6.2
+The median shows that exactly half of the participants in Diet B lost more than 3.745 kg. This is almost the same level as the mean, and we can see that the distribution is not significantly distorted. The quartiles are Q1=1.953 and Q3=5.404, indicating a large degree of variability. The interquartile range is 3.451 kg, which also indicates a large degree of individual variability. On the other hand, the median of Diet A was 5.642 kg, which is clearly higher than B, and the interquartile range was 3.285 kg, which is narrower than B. In other words, Diet B has a low median and a large variance, which indicates that the effect is low and there is a large individual difference.
+
+Exercise 6.3
+The dataset investigates the preferences for breakfast cereal brands in two areas. 
+Compared to Area 1, Area 2 has high support for both Brands A and B. This means that Area 2 has high recognition of famous brands and/or high purchasing power.
+
+Unit 9 - Charts Worksheet
+Exercise 9.1 / 9.4
+   
+Objective: To show brand preferences in Areas 1 and 2 using a bar graph.
+Exercise 9.2 / 9.5
+ 
+The graphs shown in Exercise 9.1 are arranged side by side to make it easier to understand visually. We can see that the purchasing power of brands A and B is lower in Area 1 than in Area 2.
+Exercise 9.3 / 9.6
+ The histogram allowed me to check the distribution of data (variance, skewness, etc.). I was able to actually visually confirm the differences identified in the e-portfolio unit7_Summary Measures worksheet.
+![image](https://github.com/user-attachments/assets/e2606357-4ba2-4562-9c9a-d246f237055d)
+
+
+## Literture review and Research Proposal
+
+## References
+Confessore, N., 2018. Cambridge Analytica and Facebook: The Scandal and the Fallout So Far. The New York Times. [Accessed 18 February 2025].
+
+Kleinman, Z., 2018. Cambridge Analytica: The story so far. The Guardian [online] Available at: https://www.bbc.com/news/technology-43465968, [Accessed 18 February 2025].
+
+Troutman, M., 2024. NYU survey of MTA job violence was posted publicly on Facebook – and trolls may have taken over: “Mischievous respondents.” [online] Available at: https://nypost.com/2024/11/11/us-news/nyu-survey-of-mta-job-violence-was-posted-publicly-on-facebook-and-trolls-may-have-taken-over-mischevious-respondents/ [Accessed 18 February 2025].
+![image](https://github.com/user-attachments/assets/73fab54b-300d-43c7-8204-c417628a7c7b)
+
+
