@@ -30,12 +30,10 @@ The research team requested a retraction.
 The National Institutes of Health, which funded the study, and the research oversight group at New York University were notified of the issue.
 
 ## unit7~9
-e-portfolio unit7_Hypothesis Testing worksheet
-
 1 Introduction
 In Unit 7, I learned the basic theory of hypothesis testing and t-tests using Excel. In particular, we learned how to check the homogeneity of variance using F-tests, and how to use one-sided and two-sided tests, and t-tests with and without pairing. We will describe the results of Exercise 7.1 to 7.5.
 
-Exercise 7.1, 7.3 7.4
+### Exercise 7.1, 7.3 7.4
 1 Data Overview
 Data Set G: Data of impurities when processed with Agent1 and 2.
 2 Test Procedure
@@ -44,11 +42,12 @@ This time, we will use a one-sided test to check whether Agent1 can remove impur
 ・Alternative hypothesis (H₁): μ₁ < μ₂ (Agent1 is significantly more effective)
 Check the homogeneity of variance using F-tests and perform t-tests
 3 Results and interpretation
- 
+ <img width="286" alt="image" src="https://github.com/user-attachments/assets/44acebaa-a354-4e4b-a1c5-65c09bdc04a8" />
 ・Results of F-test
 Since the p-value is 0.4886, which is greater than the significance level of 0.05, it can be determined that there is no significant difference in variance. Therefore, the variances of Agent 1 and Agent 2 are considered to be equal and are used in the t-test.
 
 Results of the t-test
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/77878ad7-5b62-4010-9861-751c65e83fd0" />
 〇 Exercise 7.1
 Even in the case of a one-sided test, the p-value is 0.1578, which is also larger than the significance level, so we cannot conclude that there is a significant difference.
 〇 Exercise 7.3
@@ -57,60 +56,43 @@ From the above, Agent2 is slightly larger numerically, but at the 5% level, it c
 〇 Exercise 7.4
 What happens if you switch the two-sided test performed in 7.3 to a one-sided test? If you switch to a one-sided test that shows that Agent1 is more effective, the one-sided test should theoretically be about half. However, it still does not fall below the significance level. Therefore, it is not a significant difference. However, choosing a one-sided test after the fact like this is not statistically valid.
 
-Exercise 7.2, 7.5
+### Exercise 7.2, 7.5
 1 Data overview
 Test whether the average income of men exceeds that of women using the data from Data Set C
 2 Test procedure
 Use a one-sided test to examine whether men's income is higher than women's
 H₀: μₘ ≤ μᶠ (men's income is lower than women's)
 H₁: μₘ > μᶠ (men's income exceeds women's)
-
-
-
-
-
-
-
-
+<img width="219" alt="image" src="https://github.com/user-attachments/assets/3f0a8764-9094-45e5-956e-c2ca8e7ac69c" />
 3 Results
 ・Results of F-test
 The p-value is 0.2182, which is greater than 0.05. Therefore, the income variances of men and women can be considered equal. Therefore, the t-test uses a method that assumes equal variances.
-
 Results of the t-test
-
-
-
-
-
-
-
-
-
-
-
+<img width="256" alt="image" src="https://github.com/user-attachments/assets/2370fe8a-c4c6-4f54-991e-7c6340a34c25" />
 The p-value of the one-tailed t-test is 0.00071, which is less than the significance level of 0.05. The null hypothesis can be rejected. Therefore, it can be said that the average income of men is statistically significantly higher than that of women.
-
-e-portfolio unit7_Summary Measures worksheet
-Exercise 6.1
+### e-portfolio unit7_Summary Measures worksheet
+### Exercise 6.1
+<img width="145" alt="image" src="https://github.com/user-attachments/assets/322d6a3e-b380-4458-a9e1-9ed63567ffaa" />
 The dataset shows weight loss data when eating Diet A and Diet B. 
 Diet B resulted in a mean weight loss of 3.71 kg, with a standard deviation of 2.77 kg, suggesting a large degree of individual variability. Diet A, on the other hand, resulted in a weight loss of 5.341 kg, suggesting that Diet A resulted in a greater weight loss on average. The standard deviation of Diet A was 2.54 kg, which is slightly smaller, and we can see that the variability is also small.
-Exercise 6.2
+### Exercise 6.2
 The median shows that exactly half of the participants in Diet B lost more than 3.745 kg. This is almost the same level as the mean, and we can see that the distribution is not significantly distorted. The quartiles are Q1=1.953 and Q3=5.404, indicating a large degree of variability. The interquartile range is 3.451 kg, which also indicates a large degree of individual variability. On the other hand, the median of Diet A was 5.642 kg, which is clearly higher than B, and the interquartile range was 3.285 kg, which is narrower than B. In other words, Diet B has a low median and a large variance, which indicates that the effect is low and there is a large individual difference.
-
-Exercise 6.3
+### Exercise 6.3
 The dataset investigates the preferences for breakfast cereal brands in two areas. 
 Compared to Area 1, Area 2 has high support for both Brands A and B. This means that Area 2 has high recognition of famous brands and/or high purchasing power.
-
-Unit 9 - Charts Worksheet
+<img width="145" alt="image" src="https://github.com/user-attachments/assets/17f1918f-5d4a-4942-922d-f113a3ff0feb" />
+### Unit 9 - Charts Worksheet
 Exercise 9.1 / 9.4
-   
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/e379912f-04a1-4677-98fa-434ed0a2e7bb" /><img width="197" alt="image" src="https://github.com/user-attachments/assets/462b02a6-332a-4c12-9659-3db1c98da86d" />
 Objective: To show brand preferences in Areas 1 and 2 using a bar graph.
-Exercise 9.2 / 9.5
- 
+### Exercise 9.2 / 9.5
 The graphs shown in Exercise 9.1 are arranged side by side to make it easier to understand visually. We can see that the purchasing power of brands A and B is lower in Area 1 than in Area 2.
-Exercise 9.3 / 9.6
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/093d1f00-0d43-4853-b2b7-b1a934662714" />
+
+### Exercise 9.3 / 9.6
  The histogram allowed me to check the distribution of data (variance, skewness, etc.). I was able to actually visually confirm the differences identified in the e-portfolio unit7_Summary Measures worksheet.
-![image](https://github.com/user-attachments/assets/e2606357-4ba2-4562-9c9a-d246f237055d)
+<img width="218" alt="image" src="https://github.com/user-attachments/assets/8b5c9db9-2220-4952-a66a-6b22b04afb3a" /><img width="226" alt="image" src="https://github.com/user-attachments/assets/e51101b3-bed3-4278-879c-d48554008de4" />
+
 
 
 ## Literture review and Research Proposal
@@ -121,6 +103,3 @@ Confessore, N., 2018. Cambridge Analytica and Facebook: The Scandal and the Fall
 Kleinman, Z., 2018. Cambridge Analytica: The story so far. The Guardian [online] Available at: https://www.bbc.com/news/technology-43465968, [Accessed 18 February 2025].
 
 Troutman, M., 2024. NYU survey of MTA job violence was posted publicly on Facebook – and trolls may have taken over: “Mischievous respondents.” [online] Available at: https://nypost.com/2024/11/11/us-news/nyu-survey-of-mta-job-violence-was-posted-publicly-on-facebook-and-trolls-may-have-taken-over-mischevious-respondents/ [Accessed 18 February 2025].
-![image](https://github.com/user-attachments/assets/73fab54b-300d-43c7-8204-c417628a7c7b)
-
-
