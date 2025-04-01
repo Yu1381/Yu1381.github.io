@@ -143,10 +143,21 @@ The graphs shown in Exercise 9.1 are arranged side by side to make it easier to 
 
 ## Literture review and Research Proposal
 
+    This time, I selected Distance Education (DE) as the theme for the literature review and research proposal. The literature review was conducted by subdividing the theme, focusing on existing reviews. I believe that I was able to conduct a comprehensive literature review by considering it from multiple perspectives, such as people and systems. 
+    The research proposal considered improving the quality of University of Essex Online. As a result of the literature review, research on DE itself has been conducted comprehensively (Domingues et al. 2023, Fojtík 2018), so we decided to explore ways to actually utilize it. Therefore, it is important for the research method itself to follow previous methods, and it will be carried out mainly based on the literature review we conducted. Among them, the impact of COVID-19 was suggested in many literature as a background (Masalimova et al., 2022). Next, I extracted the elements obtained from the literature review and thought that they could be used in interviews and questionnaires. In particular, I thought that a deeper understanding could be achieved by using both quantitative and qualitative research (Streefkerk, 2019). I also created a specific research schedule using a Gantt chart, and was able to establish a system to conduct research more efficiently. 
+  Furthermore, by listing future research that should be conducted at the end of the paper, it was possible to consider not only this research but also future developments.
+
 ## References
 Confessore, N., 2018. Cambridge Analytica and Facebook: The Scandal and the Fallout So Far. The New York Times. [Accessed 18 February 2025].
 
 Kleinman, Z., 2018. Cambridge Analytica: The story so far. The Guardian [online] Available at: https://www.bbc.com/news/technology-43465968, [Accessed 18 February 2025].
 
 Troutman, M., 2024. NYU survey of MTA job violence was posted publicly on Facebook – and trolls may have taken over: “Mischievous respondents.” [online] Available at: https://nypost.com/2024/11/11/us-news/nyu-survey-of-mta-job-violence-was-posted-publicly-on-facebook-and-trolls-may-have-taken-over-mischevious-respondents/ [Accessed 18 February 2025].
+
+Domingues, S., Souza, R.D.C.D., Melo, C.S.B.D. and Cruz, B.M.D. (2023) ‘Adaptation of Students Who Started Higher Education during Remote Teaching in Minas Gerais’, Educação e Pesquisa, 49, e266765.
+
+Fojtík, R. (2018) ‘Problems of Distance Education’, International Journal of Information and Communication Technology Education, 7, pp. 14–23.
+Masalimova, A.R., Khvatova, M.A., Chikileva, L.S., Zvyagintseva, E.P., Stepanova, V.V. and Melnik, M.V. (2022) ‘Distance Learning in Higher Education During COVID-19’, Frontiers in Education, 7, 822958.
+
+Streefkerk, R. (2019) Qualitative vs. Quantitative Research | Differences, Examples & Methods. Scribbr. Available at: https://www.scribbr.com/methodology/qualitative-quantitative-research/ (Accessed: 31 March 2025).
 
